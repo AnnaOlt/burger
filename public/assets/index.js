@@ -2,7 +2,7 @@
 $(function () {
   $(".change-status").on("click", function (event) {
     var id = $(this).data("id");
-    var newSleep = $(this).data("newstatus");
+    var newStatus = $(this).data("newStatus");
 
     var newDevouredState = {
       devoured: true,
@@ -24,7 +24,7 @@ $(function () {
     event.preventDefault();
 
     let newBurger = {
-      burger: $("#ca").val().trim(),
+      burger_name: $("#ca").val().trim(),
       devoured: $("[burger=devoured]:checked").val().trim(),
     };
 
