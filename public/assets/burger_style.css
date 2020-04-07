@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(240, 223, 186);
+}
+h1 {
+  text-align: center;
+  color: black;
+  font-weight: bolder;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container-flexbox {
+  padding: 20px;
+
+  height: 80%;
+}
+h2 {
+  font-size: 18px;
+  padding: 10px;
+  padding-left: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.col-md-4 {
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  justify-content: center;
+}
