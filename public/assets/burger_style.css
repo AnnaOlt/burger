@@ -30,6 +30,7 @@ ul {
   height: 100%;
 }
 
-img {
+img,
+.create-form {
   justify-content: center;
 }
