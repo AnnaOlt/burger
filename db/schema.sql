@@ -9,7 +9,8 @@ DROP TABLE IF EXISTS burgers;
 CREATE TABLE burgers
 (
 
-    id INT(11) NOT NULL,
+    id INT(11) NOT NULL
+    AUTO_INCREMENT,
     burger_name VARCHAR
     (30) NOT NULL,
     devoured BOOLEAN,
